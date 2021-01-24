@@ -2,12 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:testdesign2/appbar.dart';
 
-import 'customCircularProgress.dart';
 
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var size = MediaQuery.of(context).size;
     Widget listItem(Color color, double progress, String title, String subtitle,
         Color progresscolor) {
       return Padding(
